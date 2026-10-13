@@ -1,13 +1,30 @@
 ---
-title: "About"
+title: "Abhigna Tippala"
 image: profile.jpg
 about:
   template: jolla
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/AbhignaTippala
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/abhignatippala?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+    - icon: envelope
+      text: Email
+      href: mailto:atip0003@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, I'm Abhigna. I'm a Master of Business Analytics student at Monash
+University with an interest in environmental data and in explaining numbers to people who don't work with them every day.
+
+Before my Masters I studied BBA(Business Analytics).
+
+On this blog I turn research articles into short, plain-language stories.
+
+## Education
+
+Monash University | Master of Business Analytics | 2026–2028
+
+
+
