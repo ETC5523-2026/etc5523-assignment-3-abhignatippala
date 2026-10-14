@@ -10,11 +10,12 @@ website:
       - text: "About Me"
         href: about.qmd
       - icon: github
-        href: https://github.com/ETC5523-2026/etc5523-assignment-3-abhignatippala
+        href: https://github.com/AbhignaTippala
         aria-label: "GitHub profile"
-    page-footer:
-      left: "© 2026 Abhigna Tippala"
-      right: "Built with [Quarto](https://quarto.org)"
+  page-footer:
+    left: "© 2026 Abhigna Tippala"
+    right: "Built with [Quarto](https://quarto.org)"
+
 format:
   html:
     theme:

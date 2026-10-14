@@ -153,7 +153,6 @@ means that reading did more of the work in that stream.
 #| fig-width: 9
 #| fig-height: 4.2
 
-# APPROXIMATE values read off Fig. 4 of Kermorvant et al. (2023) - check against the paper.
 importance <- tribble(
   ~reading,                 ~`Arikaree River (CO)`, ~`Caribou Creek (AK)`, ~`Lewis Run (VA)`,
   "Time trend",              4.2,                    5.8,                   16.4,

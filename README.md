@@ -35,6 +35,6 @@ The rendered site is written to `docs/`.
 
 ## Generative AI declaration
 
- I used Claude (Anthropic) to help improve the wording of my blog post and website content, refine my ideas, and troubleshoot some technical issues with Quarto and Git. I reviewed and edited the suggestions in my own words and checked the final content and code.
+Generative AI declaration: I used Claude (Anthropic) to help improve the wording of my blog post, website content and scss code, refine my ideas, and troubleshoot some technical issues with Quarto and Git. I reviewed and edited the suggestions in my own words and checked the final content and code.
 
 

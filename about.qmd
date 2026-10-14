@@ -14,7 +14,7 @@ about:
       href: https://github.com/AbhignaTippala
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/abhignatippala?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+      href: https://www.linkedin.com/in/abhignatippala
     - icon: envelope
       text: Email
       href: mailto:atip0003@student.monash.edu
