@@ -1,14 +1,24 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Latest posts"
+subtitle: "Plain-language stories from environmental and data research"
 page-layout: full
 title-block-banner: true
+listing:
+  max-description-length: 400
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 1
+  image-height: 340px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, subtitle, description, categories, date, author]
 ---
 
+::: {.home-intro}
+Research papers are full of findings that rarely reach the people they matter
+to. Each post here retells a published study in plain language, with charts
+built for everyday readers.
+:::
 

@@ -1,13 +1,95 @@
 ---
-title: "About"
+title: "Abhigna Tippala"
+subtitle: "Master of Business Analytics student · Monash University"
+page-layout: full
+toc: false
 image: profile.jpg
 about:
   template: jolla
+  image-width: 14em
+  image-shape: round
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/AbhignaTippala
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/abhignatippala
+    - icon: envelope
+      text: Email
+      href: mailto:atip0003@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+::: {.about-body}
+
+::: {.lead-text}
+I turn complex data into clear, honest stories, when the findings
+matter to people who don't work with data every day.
+:::
+
+I'm a Master of Business Analytics student at Monash University. Before Monash,
+I completed a Bachelor of Business Administration (Business Analytics), which
+taught me that even the best analysis is of little use if nobody understands it.
+
+## What I do
+
+::: {.tile-grid}
+
+::: {.tile}
+[]{.bi .bi-search .tile-icon}
+
+**Analyse**
+
+Explore data carefully to find what is really going on.
+:::
+
+::: {.tile}
+[]{.bi .bi-bar-chart-line .tile-icon}
+
+**Visualise**
+
+Design charts that answer one clear question at a glance.
+:::
+
+::: {.tile}
+[]{.bi .bi-chat-square-text .tile-icon}
+
+**Explain**
+
+Translate research into plain language for the people it affects.
+:::
+
+:::
+
+## Toolkit
+
+::: {.chips}
+[R]{.chip} [tidyverse]{.chip} [ggplot2]{.chip} [Quarto]{.chip}
+[Excel]{.chip} [Statistical modelling]{.chip} [Data storytelling]{.chip}
+:::
+
+## Education
+
+::: {.timeline}
+
+::: {.timeline-item}
+**Master of Business Analytics**
+Monash University · 2026–2028
+:::
+
+::: {.timeline-item}
+**Bachelor of Business Administration (Business Analytics)**
+2021-2024
+:::
+
+:::
+
+::: {.blog-box}
+### []{.bi .bi-journal-text} About this blog
+
+This blog turns published research into short, plain-language stories, with charts built for everyday readers. The first post explores whether cheap, everyday water-quality sensors can help us keep track of nitrate in our streams.
+
+[Read the post →](posts/nitrate-sensors/index.qmd){.btn .btn-primary}
+:::
+
+:::

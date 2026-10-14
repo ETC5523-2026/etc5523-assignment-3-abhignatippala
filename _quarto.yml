@@ -1,17 +1,25 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "blog-template"
+  title: "Abhigna Tippala | Data Made Simple"
+  description: "Abhigna Tippala's blog turning environmental research, like water-quality data from streams, into clear stories for everyday readers."
   navbar:
     right:
-      - about.qmd
+      - text: "About Me"
+        href: about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/AbhignaTippala
+        aria-label: "GitHub profile"
+  page-footer:
+    left: "© 2026 Abhigna Tippala"
+    right: "Built with [Quarto](https://quarto.org)"
+
 format:
   html:
-    theme: cosmo
-    css: styles.css
-
-
+    theme:
+      - flatly
+      - styles.scss
+    toc: true
 
