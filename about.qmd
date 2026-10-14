@@ -1,5 +1,6 @@
 ---
 title: "Abhigna Tippala"
+subtitle: "Master of Business Analytics student · Monash University"
 image: profile.jpg
 about:
   template: jolla
@@ -15,16 +16,25 @@ about:
       href: mailto:atip0003@student.monash.edu
 ---
 
-Hi, I'm Abhigna. I'm a Master of Business Analytics student at Monash
-University with an interest in environmental data and in explaining numbers to people who don't work with them every day.
+I'm a Master of Business Analytics student at Monash University who enjoys
+turning complex data into clear, honest stories. I'm especially interested in
+how statistics can support better decisions about the environment, and in
+making research findings accessible to people who don't work with data every day.
 
-Before my Masters I studied BBA(Business Analytics).
+Before Monash, I studied my undergrad in BBA( Business Analytics). My whole experience taught me
+that the best analysis is useless if nobody understands it.
 
-On this blog I turn research articles into short, plain-language stories.
+On this blog, I take published research and translate it into plain language,
+with visualisations designed for the people the findings matter to most.
+
+## Skills
+
+R (tidyverse, ggplot2) · Quarto · Data visualisation · Statistical modelling ·
+Data communication
 
 ## Education
 
-Monash University | Master of Business Analytics | 2026–2028
+**Monash University** | Master of Business Analytics | 2026–2028
 
 
 

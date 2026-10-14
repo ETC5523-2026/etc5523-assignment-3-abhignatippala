@@ -1,5 +1,6 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Latest posts"
+subtitle: "Plain-language stories from environmental and data research"
 listing:
   contents: posts
   sort: "date desc"

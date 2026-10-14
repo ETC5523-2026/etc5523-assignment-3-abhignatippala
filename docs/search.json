@@ -4,21 +4,7 @@
     "href": "about.html",
     "title": "Abhigna Tippala",
     "section": "",
-    "text": "Hi, I’m Abhigna. I’m a Master of Business Analytics student at Monash University with an interest in environmental data and in explaining numbers to people who don’t work with them every day.\nBefore my Masters I studied BBA(Business Analytics).\nOn this blog I turn research articles into short, plain-language stories."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog Template",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ETC5523 Blog Assessment",
-    "section": "",
-    "text": "Welcome To My Blog Template\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\nNo matching items"
+    "text": "I’m a Master of Business Analytics student at Monash University who enjoys turning complex data into clear, honest stories. I’m especially interested in how statistics can support better decisions about the environment, and in making research findings accessible to people who don’t work with data every day.\nBefore Monash, I studied my undergrad in BBA( Business Analytics). My whole experience taught me that the best analysis is useless if nobody understands it.\nOn this blog, I take published research and translate it into plain language, with visualisations designed for the people the findings matter to most."
   },
   {
     "objectID": "about.html#education",
@@ -26,5 +12,68 @@
     "title": "Abhigna Tippala",
     "section": "Education",
     "text": "Education\nMonash University | Master of Business Analytics | 2026–2028"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Latest posts",
+    "section": "",
+    "text": "Can cheaper sensors keep an eye on nitrate in our streams?\n\n\nWhat three very different US streams reveal about monitoring water quality on a budget\n\n\n\nwater quality\n\nenvironment\n\nstatistics\n\n\n\nExpensive nitrate sensors are rare, but cheap water-quality sensors are everywhere. A 2023 study tested whether the cheap ones can fill the gap. The answer: partly, and every stream has its own personality.\n\n\n\n\n\nOct 14, 2026\n\n\nAbhigna Tippala\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html",
+    "href": "posts/nitrate-sensors/index.html",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "",
+    "text": "TipKey takeaways\n\n\n\n\nEveryday water-quality readings (temperature, conductivity, cloudiness, oxygen and water level) explained around 75–85% of the ups and downs in nitrate.\nAdding nitrate’s own recent history pushed that to 99%, but that extra accuracy needs a nitrate sensor in the water.\nThe same five readings were useful in all three streams, but which one mattered most was different in every stream."
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#why-nitrate-is-worth-watching",
+    "href": "posts/nitrate-sensors/index.html#why-nitrate-is-worth-watching",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "Why nitrate is worth watching",
+    "text": "Why nitrate is worth watching\nA stream can look perfectly clear and still be carrying too much nitrate. Nitrate is a form of nitrogen that plants need to grow, and in small amounts it is harmless. But when extra nitrate washes in from fertilised farmland, sewage or city streets, it can feed large blooms of algae. When those algae die and break down, they use up the oxygen in the water, and fish and insects can suffocate.\nThat makes nitrate one of the most useful things to track in a stream, ideally hour by hour, because levels can change quickly after rain. The problem is cost. Sensors that measure nitrate directly are expensive, so very few streams have one. Sensors that measure simpler things, such as water temperature, how cloudy the water is, and how much oxygen it holds, are far cheaper and far more common.\nThat raises three questions this post sets out to answer:\n\nCan those cheaper, everyday readings tell us how much nitrate is in a stream?\nDoes that still work in streams that are very different from each other?\nWhich of the everyday readings matter most?"
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#where-the-evidence-comes-from",
+    "href": "posts/nitrate-sensors/index.html#where-the-evidence-comes-from",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "Where the evidence comes from",
+    "text": "Where the evidence comes from\nThese questions were tested by an international team of statisticians and freshwater scientists (Kermorvant et al. 2023). They used free, publicly available sensor data from the US National Ecological Observatory Network (National Ecological Observatory Network (NEON) 2021), a government-funded program that monitors rivers and streams across the United States.\nRather than testing one stream, they deliberately chose three that could hardly be more different (Table 1): a dry-country river running through farmland in Colorado, a near-untouched creek in subarctic Alaska, and a small creek near towns and farms in Virginia. Each had around two years of near-continuous readings.\n\n\n\n\nTable 1: The three study streams, ordered from lowest to highest typical nitrate. Data from Kermorvant et al. (2023, Table 2). µM = micromoles per litre.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStream\nClimate\nSurrounding land\nCatchment size (km²)\nTypical nitrate (µM)\n\n\n\n\nArikaree River, Colorado\nSemi-arid\nGrassland and farming\n2,875\n5.5\n\n\nCaribou Creek, Alaska\nSubarctic\nUndisturbed forest (taiga)\n106\n28.4\n\n\nLewis Run, Virginia\nTemperate\nFarmland, near urban areas\n11.9\n192\n\n\n\n\n\n\n\n\nThe last column is the one to notice: Lewis Run typically carries about 35 times as much nitrate as the Arikaree River. If a single approach works across streams this different, that is a good sign it could work elsewhere."
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#what-they-found",
+    "href": "posts/nitrate-sensors/index.html#what-they-found",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "What they found",
+    "text": "What they found\n\nAnswering question 1: can everyday readings tell us about nitrate?\nMostly, yes. Using the everyday readings alone (plus a slow time trend), the model explained roughly 75–85% of the changes in nitrate, depending on the stream. When the researchers also let the model “remember” what nitrate had done in the previous readings, that rose to 99% at all three streams.\nIn other words, nitrate in a stream has momentum: where it was a moment ago is a strong clue to where it is now.\n\n\nAnswering question 2: does it work in very different streams?\nThe approach does. Despite the very different climates, land uses and nitrate levels in Table 1, the same five readings were meaningful predictors in all three streams. That makes them a sensible starting kit for any new stream. However, each stream needed its own model; a model built for one stream could not simply be reused on another.\n\n\nAnswering question 3: which readings matter most?\nIt depends on the stream. Figure 1 shows how much each reading contributed to each stream’s model. Read each panel separately: a longer bar means that reading did more of the work in that stream.\n\n\n\n\n\n\n\n\nFigure 1: How much each reading helped predict nitrate in each stream (the drop in the model’s accuracy when that reading is removed). Where one reading clearly stands out, it is highlighted. Approximate values read from Kermorvant et al. (2023, Fig. 4).\n\n\n\n\n\nThree very different patterns emerge:\n\nCaribou Creek (Alaska): conductivity clearly stands out, contributing about 10%.\nLewis Run (Virginia): every reading pulls its weight, each contributing between about 11% and 16%.\nArikaree River (Colorado): no single reading contributes more than about 5%. Here, nitrate’s own recent history (its “momentum”) did most of the work.\n\n\n\nA bonus finding: rain affects each stream differently\nWhen a storm raised the water level at Caribou Creek, nitrate tended to rise, probably because rainwater washed nitrate out of the surrounding soil. At Lewis Run, the same kind of event made nitrate fall, most likely because the extra water diluted what was already there. The same reading can point in opposite directions in different streams, which is exactly why each stream needs its own model.\n\n\n\n\n\n\nWarningWhat this study can’t tell us\n\n\n\n\nThe 99% needs a nitrate sensor. The jump from about 80% to 99% comes from the model knowing recent nitrate readings. A stream with no nitrate sensor at all would only get the lower figure.\nThree streams, two years. Rare events, such as a major flood or a severe drought, may not have been captured.\nResults don’t transfer automatically. Each stream needed its own model, so these exact numbers shouldn’t be applied to other streams, including Australian ones, without testing."
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#so-can-cheaper-sensors-do-the-job",
+    "href": "posts/nitrate-sensors/index.html#so-can-cheaper-sensors-do-the-job",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "So, can cheaper sensors do the job?",
+    "text": "So, can cheaper sensors do the job?\nComing back to our three questions:\n\nCan everyday readings tell us about nitrate? Largely, yes. On their own they explained around three-quarters or more of nitrate’s ups and downs.\nDoes it work in very different streams? The approach does: the same five readings were useful in a semi-arid river, a subarctic creek and a semi-urban stream. But there is no single formula that works everywhere.\nWhich readings matter most? It depends on the stream: conductivity dominated in one, every reading mattered in another, and in the third nitrate’s recent history mattered most.\n\nThe overall answer is partly. Cheap sensors are best seen as a way to stretch expensive nitrate monitoring further, for example by filling the gaps between nitrate readings or extending coverage to more sites, rather than replacing nitrate sensors entirely (Kermorvant et al. 2023).\n\nWhat this means for stream watchers\n\nYour everyday readings matter. Temperature, conductivity and turbidity measurements are genuinely linked to nitrate, so recording them consistently is worthwhile.\nNote the rain. Storms can push nitrate up or down depending on the stream, so recording rainfall alongside readings adds valuable context.\nGet to know your stream. Because each stream behaves differently, the most useful thing is a long, steady record from the same site.\n\nThe study’s real lesson is that there is no one-size-fits-all rule for nitrate. Every stream has its own personality, and learning it is the first step to protecting it."
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#references",
+    "href": "posts/nitrate-sensors/index.html#references",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "References",
+    "text": "References\n\n\nKermorvant, Claire, Benoît Liquet, Guy Litt, et al. 2023. “Understanding Links Between Water-Quality Variables and Nitrate Concentration in Freshwater Streams Using High Frequency Sensor Data.” PLOS ONE 18 (6): e0287640. https://doi.org/10.1371/journal.pone.0287640.\n\n\nLeigh, Catherine, Sevvandi Kandanaarachchi, James M. McGree, et al. 2019. “Predicting Sediment and Nutrient Concentrations from High-Frequency Water-Quality Data.” PLOS ONE 14 (8): e0215503. https://doi.org/10.1371/journal.pone.0215503.\n\n\nNational Ecological Observatory Network (NEON). 2021. Water Quality (DP1.20288.001), RELEASE-2021. https://data.neonscience.org/data-products/DP1.20288.001."
+  },
+  {
+    "objectID": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
+    "href": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "How the researchers tested it",
+    "text": "How the researchers tested it\nFor each stream, the researchers built a statistical model that tried to predict nitrate using five everyday readings:\n\nWater temperature\nConductivity: how easily the water carries electricity, which rises when more salts and minerals are dissolved in it\nTurbidity: how cloudy the water is\nDissolved oxygen: how much oxygen the water holds\nWater level\n\nThey then checked how much of the real rise and fall in nitrate the model could reproduce, and how much each reading contributed.\n\n\n\n\n\n\nNoteFor the curious: how the model works\n\n\n\n\n\nThe model. The researchers used a generalised additive model (GAM). Unlike a straight line of best fit, a GAM lets each relationship bend; for example, nitrate might rise with temperature up to a point and then level off. Earlier studies either assumed straight-line relationships or used “black box” machine-learning methods that predict well but are hard to explain (Leigh et al. 2019). A GAM sits in between: flexible, but still interpretable.\nAdding memory. They then added a time-series component (ARIMA), which accounts for the fact that each nitrate reading is closely related to the readings just before it. The combined model is called a GAMM.\nJargon buster.\n\nVariation explained: how much of the real rise and fall in nitrate the model reproduces. 99% means the model’s predictions track the real readings almost exactly.\nContribution: how much worse the model gets when one reading is removed. The bigger the drop, the more that reading matters."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Abhigna Tippala",
+    "section": "Skills",
+    "text": "Skills\nR (tidyverse, ggplot2) · Quarto · Data visualisation · Statistical modelling · Data communication"
   }
 ]
