@@ -23,7 +23,7 @@ about:
 ::: {.about-body}
 
 ::: {.lead-text}
-I turn complex data into clear, honest stories, especially when the findings
+I turn complex data into clear, honest stories, when the findings
 matter to people who don't work with data every day.
 :::
 
