@@ -21,5 +21,8 @@ format:
       - flatly
       - styles.scss
     toc: true
+    fontsize: 1.2em
+    grid:
+      body-width: 950px
 
 

@@ -4,21 +4,28 @@
     "href": "about.html",
     "title": "Abhigna Tippala",
     "section": "",
-    "text": "I’m a Master of Business Analytics student at Monash University who enjoys turning complex data into clear, honest stories. I’m especially interested in how statistics can support better decisions about the environment, and in making research findings accessible to people who don’t work with data every day.\nBefore Monash, I studied my undergrad in BBA( Business Analytics). My whole experience taught me that the best analysis is useless if nobody understands it.\nOn this blog, I take published research and translate it into plain language, with visualisations designed for the people the findings matter to most."
+    "text": "I turn complex data into clear, honest stories, especially when the findings matter to people who don’t work with data every day.\n\nI’m a Master of Business Analytics student at Monash University. Before Monash, I completed a Bachelor of Business Administration (Business Analytics), which taught me that even the best analysis is of little use if nobody understands it.\n\n\n\n\n\nAnalyse\nExplore data carefully to find what is really going on.\n\n\n\nVisualise\nDesign charts that answer one clear question at a glance.\n\n\n\nExplain\nTranslate research into plain language for the people it affects.\n\n\n\n\n\n\nR tidyverse ggplot2 Quarto Excel Statistical modelling Data storytelling\n\n\n\n\n\n\nMaster of Business Analytics Monash University · 2026–2028\n\n\nBachelor of Business Administration (Business Analytics) 2021-2024\n\n\n\n\nThis blog turns published research into short, plain-language stories, with charts built for everyday readers. The first post explores whether cheap, everyday water-quality sensors can help us keep track of nitrate in our streams.\nRead the post →"
+  },
+  {
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "Abhigna Tippala",
+    "section": "",
+    "text": "Analyse\nExplore data carefully to find what is really going on.\n\n\n\nVisualise\nDesign charts that answer one clear question at a glance.\n\n\n\nExplain\nTranslate research into plain language for the people it affects."
+  },
+  {
+    "objectID": "about.html#toolkit",
+    "href": "about.html#toolkit",
+    "title": "Abhigna Tippala",
+    "section": "",
+    "text": "R tidyverse ggplot2 Quarto Excel Statistical modelling Data storytelling"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Abhigna Tippala",
-    "section": "Education",
-    "text": "Education\nMonash University | Master of Business Analytics | 2026–2028"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Latest posts",
     "section": "",
-    "text": "Can cheaper sensors keep an eye on nitrate in our streams?\n\n\nWhat three very different US streams reveal about monitoring water quality on a budget\n\n\n\nwater quality\n\nenvironment\n\nstatistics\n\n\n\nExpensive nitrate sensors are rare, but cheap water-quality sensors are everywhere. A 2023 study tested whether the cheap ones can fill the gap. The answer: partly, and every stream has its own personality.\n\n\n\n\n\nOct 14, 2026\n\n\nAbhigna Tippala\n\n\n\n\n\nNo matching items"
+    "text": "Master of Business Analytics Monash University · 2026–2028\n\n\nBachelor of Business Administration (Business Analytics) 2021-2024\n\n\n\n\nThis blog turns published research into short, plain-language stories, with charts built for everyday readers. The first post explores whether cheap, everyday water-quality sensors can help us keep track of nitrate in our streams.\nRead the post →"
   },
   {
     "objectID": "posts/nitrate-sensors/index.html",
@@ -42,6 +49,13 @@
     "text": "Where the evidence comes from\nThese questions were tested by an international team of statisticians and freshwater scientists (Kermorvant et al. 2023). They used free, publicly available sensor data from the US National Ecological Observatory Network (National Ecological Observatory Network (NEON) 2021), a government-funded program that monitors rivers and streams across the United States.\nRather than testing one stream, they deliberately chose three that could hardly be more different (Table 1): a dry-country river running through farmland in Colorado, a near-untouched creek in subarctic Alaska, and a small creek near towns and farms in Virginia. Each had around two years of near-continuous readings.\n\n\n\n\nTable 1: The three study streams, ordered from lowest to highest typical nitrate. Data from Kermorvant et al. (2023, Table 2). µM = micromoles per litre.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStream\nClimate\nSurrounding land\nCatchment size (km²)\nTypical nitrate (µM)\n\n\n\n\nArikaree River, Colorado\nSemi-arid\nGrassland and farming\n2,875\n5.5\n\n\nCaribou Creek, Alaska\nSubarctic\nUndisturbed forest (taiga)\n106\n28.4\n\n\nLewis Run, Virginia\nTemperate\nFarmland, near urban areas\n11.9\n192\n\n\n\n\n\n\n\n\nThe last column is the one to notice: Lewis Run typically carries about 35 times as much nitrate as the Arikaree River. If a single approach works across streams this different, that is a good sign it could work elsewhere."
   },
   {
+    "objectID": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
+    "href": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
+    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
+    "section": "How the researchers tested it",
+    "text": "How the researchers tested it\nFor each stream, the researchers built a statistical model that tried to predict nitrate using five everyday readings:\n\nWater temperature\nConductivity: how easily the water carries electricity, which rises when more salts and minerals are dissolved in it\nTurbidity: how cloudy the water is\nDissolved oxygen: how much oxygen the water holds\nWater level\n\nThey then checked how much of the real rise and fall in nitrate the model could reproduce, and how much each reading contributed.\n\n\n\n\n\n\nNoteFor the curious: how the model works\n\n\n\n\n\nThe model. The researchers used a generalised additive model (GAM). Unlike a straight line of best fit, a GAM lets each relationship bend; for example, nitrate might rise with temperature up to a point and then level off. Earlier studies either assumed straight-line relationships or used “black box” machine-learning methods that predict well but are hard to explain (Leigh et al. 2019). A GAM sits in between: flexible, but still interpretable.\nAdding memory. They then added a time-series component (ARIMA), which accounts for the fact that each nitrate reading is closely related to the readings just before it. The combined model is called a GAMM.\nJargon buster.\n\nVariation explained: how much of the real rise and fall in nitrate the model reproduces. 99% means the model’s predictions track the real readings almost exactly.\nContribution: how much worse the model gets when one reading is removed. The bigger the drop, the more that reading matters."
+  },
+  {
     "objectID": "posts/nitrate-sensors/index.html#what-they-found",
     "href": "posts/nitrate-sensors/index.html#what-they-found",
     "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
@@ -63,17 +77,10 @@
     "text": "References\n\n\nKermorvant, Claire, Benoît Liquet, Guy Litt, et al. 2023. “Understanding Links Between Water-Quality Variables and Nitrate Concentration in Freshwater Streams Using High Frequency Sensor Data.” PLOS ONE 18 (6): e0287640. https://doi.org/10.1371/journal.pone.0287640.\n\n\nLeigh, Catherine, Sevvandi Kandanaarachchi, James M. McGree, et al. 2019. “Predicting Sediment and Nutrient Concentrations from High-Frequency Water-Quality Data.” PLOS ONE 14 (8): e0215503. https://doi.org/10.1371/journal.pone.0215503.\n\n\nNational Ecological Observatory Network (NEON). 2021. Water Quality (DP1.20288.001), RELEASE-2021. https://data.neonscience.org/data-products/DP1.20288.001."
   },
   {
-    "objectID": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
-    "href": "posts/nitrate-sensors/index.html#how-the-researchers-tested-it",
-    "title": "Can cheaper sensors keep an eye on nitrate in our streams?",
-    "section": "How the researchers tested it",
-    "text": "How the researchers tested it\nFor each stream, the researchers built a statistical model that tried to predict nitrate using five everyday readings:\n\nWater temperature\nConductivity: how easily the water carries electricity, which rises when more salts and minerals are dissolved in it\nTurbidity: how cloudy the water is\nDissolved oxygen: how much oxygen the water holds\nWater level\n\nThey then checked how much of the real rise and fall in nitrate the model could reproduce, and how much each reading contributed.\n\n\n\n\n\n\nNoteFor the curious: how the model works\n\n\n\n\n\nThe model. The researchers used a generalised additive model (GAM). Unlike a straight line of best fit, a GAM lets each relationship bend; for example, nitrate might rise with temperature up to a point and then level off. Earlier studies either assumed straight-line relationships or used “black box” machine-learning methods that predict well but are hard to explain (Leigh et al. 2019). A GAM sits in between: flexible, but still interpretable.\nAdding memory. They then added a time-series component (ARIMA), which accounts for the fact that each nitrate reading is closely related to the readings just before it. The combined model is called a GAMM.\nJargon buster.\n\nVariation explained: how much of the real rise and fall in nitrate the model reproduces. 99% means the model’s predictions track the real readings almost exactly.\nContribution: how much worse the model gets when one reading is removed. The bigger the drop, the more that reading matters."
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "Abhigna Tippala",
-    "section": "Skills",
-    "text": "Skills\nR (tidyverse, ggplot2) · Quarto · Data visualisation · Statistical modelling · Data communication"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Latest posts",
+    "section": "",
+    "text": "Research papers are full of findings that rarely reach the people they matter to. Each post here retells a published study in plain language, with charts built for everyday readers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan cheaper sensors keep an eye on nitrate in our streams?\n\n\nWhat three very different US streams reveal about monitoring water quality on a budget\n\n\n\nwater quality\n\nenvironment\n\nstatistics\n\n\n\nExpensive nitrate sensors are rare, but cheap water-quality sensors are everywhere. A 2023 study tested whether the cheap ones can fill the gap. The answer: partly, and every stream has its own personality.\n\n\n\nAbhigna Tippala\n\n\nOct 14, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
